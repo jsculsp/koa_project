@@ -1,0 +1,12 @@
+{
+  "name": "koa_project",
+  "version": "1.0.0",
+  "main": "app.js",
+  "author": "linmu",
+  "license": "MIT",
+  "dependencies": {
+    "koa": "next",
+    "koa-bodyparser": "3.2.0",
+    "koa-router": "^7.2.0"
+  }
+}
