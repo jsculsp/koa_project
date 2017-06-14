@@ -5,10 +5,8 @@
 'use strict'
 const Koa = require('koa')
 const bodyParser = require('koa-bodyparser')
-
 const u = require('./utils')
 const controller= require('./controller')
-
 const app = new Koa()
 const log = u.log
 
