@@ -18,6 +18,10 @@ let signin = async (ctx, next) => {
         let params = {
             title: 'Sign In Failed',
         }
-        ctx.render('signin-failed.html')
+        ctx.render('signin-failed.html', params)
     }
+}
+
+module.exports = {
+    'POST /signin': signin,
 }
